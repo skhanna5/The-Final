@@ -1,0 +1,10 @@
+# main_script.py
+
+import imgprocess
+
+# Call the capture function
+imgprocess.capture()
+
+# Access the global variables cx and cy
+x, y = imgprocess.cx, imgprocess.cy
+print("Centroid Coordinates:", x, y)
